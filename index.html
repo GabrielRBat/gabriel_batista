@@ -1,0 +1,110 @@
+<!-- Fiz a adição de um código JS que, ao clicar no botão saiba mais, um dialog será aberto com mais informações -->
+<!-- Fiz também alterações no HTML para adicionar o dialog e suas respectivas crianças -->
+<!-- Por fim, fiz alterações no CSS do dialog e modificando, principalmente, seu display e estilização -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="#"><li class="login">Login</li></a>
+            <a href="#"><li>Imoveis</li></a>
+        </ul>
+        <form>
+            <label for="pesquisaGrid">Pesquisa:</label>
+            <input type="text" id="pesquisaGrid" placeholder="Busca...">
+        </form>
+    </header>
+<div class="container">
+    <main>
+        <div class="item1">
+            <div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a>
+                    <dialog id="dialogo">
+                        <div class="imagemDialog" id="imagemDialog"><img src="https://resizedimgs.vivareal.com/fit-in/870x653/named.images.sp/7554cf40aba213a0ed2fe9c0f922b70e/%7Bdescription%7D.jpg" alt="imagem do interior do imóvel" class="imagemDiv"></div>
+                        <div class="infoDialog" id="infoDialog">
+                            
+                            <h2><small class="smallInfo">Rua Áurea Fonseca de Jesus, 1 - Califórnia, Nova Iguaçu - RJ</small>
+                            Apartamento com 2 Quartos e 1 banheiro à Venda, 53 m² por R$ 120.000,00!!
+                            <p><small>Este apartamento é ideal para quem busca conforto, praticidade e segurança. O imóvel possui sala ampla, cozinha americana, área de serviço, varanda e uma vaga de garagem. O condomínio oferece portaria 24 horas, salão de festas, playground e piscina. O apartamento está localizado em uma rua tranquila, próximo a comércios, escolas, hospitais e transporte público. Não perca essa oportunidade de morar em uma das melhores regiões de Nova Iguaçu. Agende já a sua visita!</p></small></h2>
+
+                            <button class="botaoInfo" id="botaoInfo">X</button>
+                        </div>
+                        
+                    </dialog></div></div>
+
+            <div class="item2"><div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a></div></div>
+
+            <div class="item3"><div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a></div></div>
+            
+            <div class="item4"><div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a></div></div>
+
+            <div class="item5"><div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a></div></div>
+
+            <div class="item6"><div class="subitem"> <h2></h2><br>
+                <p><small><b>Situado no coração de Nova Iguaçu, este apartamento oferece uma mistura única de conforto e sofisticação. Com uma área de estar espaçosa e bem iluminada, o apartamento é perfeito para quem valoriza espaço e luz natural. A cozinha, equipada com eletrodomésticos modernos, é ideal para quem gosta de cozinhar em casa. Os quartos são aconchegantes e acolhedores, com amplo espaço de armazenamento.<br> O banheiro é moderno e elegante, com acabamentos de alta qualidade.</b></small></p>
+                </div>
+                <div class="subitem2"><h2>R$ 120.000,00</h2>
+                    <a href="#" class="button" id="saibamais">Saiba mais</a>
+                </div></div>
+    </main>
+
+    <footer>
+        
+    </footer>
+    </div>
+</body>
+<script>
+    const botoes = document.querySelectorAll("#saibamais");
+    const modal= document.querySelector("dialog");
+    const modalImagem = document.getElementById("imagemDialog");
+    const modalInfo = document.getElementById("infoDialog");
+    const botaoInfo = document.getElementById("botaoInfo");
+    
+    function fecharDialog()
+    {
+        modal.close();
+        modal.style.display = "none";
+    }
+
+    function abrirDialog() 
+    {
+        modal.showModal();
+        modal.style.display = "flex";
+    }
+
+    botoes.forEach(botao => {
+
+        botao.addEventListener('click', abrirDialog);
+    });
+
+    botaoInfo.addEventListener('click', fecharDialog);
+   
+</script>
+</html>
